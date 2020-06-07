@@ -22,8 +22,8 @@ setup(name='webdiff',
       ],
       include_package_data=True,
       package_data = {
-          'static': 'webdiff/static/*',
-          'templates': 'webdiff/templates/*'
+          'static': ['webdiff/static/*'],
+          'templates': ['webdiff/templates/*']
       },
       classifiers=[
           'Environment :: Console',
